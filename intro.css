@@ -1,0 +1,261 @@
+
+/*enterhtml css*/
+
+/* typing effect */
+
+body{
+background-image: url("https://i.ibb.co/GJvCtr5/gradient.png");
+}
+
+.hi {
+    
+    position:relative;
+    text-align: center;
+    top: 100px;
+    left:26%;
+    
+}
+@media (max-width:420px) {
+   .hi { 
+    width:290px;
+    left:40px;
+   }
+}
+.container {
+    display: inline-block;
+}
+
+.entereffect{
+    font-family: excelorate;
+    overflow: hidden;
+    border-right: .25em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .30em;
+    animation: 
+    typing 2.5s steps(40, end) forwards,
+    blink-caret .7s infinite;
+}
+
+/*animation*/
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+#center {
+    position: fixed;
+    text-align: center;
+    top: 30%;
+    left:45%;
+}
+#centerbtn1 {
+    position:fixed;
+    text-align: center;
+    top: 46%;
+    left:44%;
+}
+
+/*yes button styling*/
+.yes {
+    width: 250px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    padding: 20px;
+    justify-content: flex-end;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    font-size:20px;
+    background:radial-gradient(#e4ffd8d7,#fff);
+}
+
+/*yes button action styling */
+.yes:hover {
+    background-color: #eefde986;
+ }
+ .yes:active {
+     box-shadow:0 6px#cce9c289 ;
+ }
+ 
+ /*yes button responsive*/
+ @media (max-width:600px){
+    .yes {
+      width: 150px;
+      margin: 50px auto;
+      font-size:15px;
+    }
+    
+ }
+ 
+
+/*no button styling*/
+.no {
+    width: 250px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    padding: 20px;
+    justify-content: flex-end;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    font-size:20px;
+    background:radial-gradient(#ffebd8d7,#fff);
+  }
+/*no button action styling */
+.no:hover {
+    background-color: #fdefe986;
+  }
+.no:active {
+    box-shadow:0 6px#ffdfd0a3;
+  }
+
+/*no button responsive*/
+@media (max-width:600px){
+    .no {
+      width: 150px;
+      margin: 50px auto;
+      font-size:15px;
+    }
+    
+ }
+
+#centerbtn2 {
+    position:fixed;
+    text-align: center;
+    top: 63%;
+    left:44%;
+}
+
+
+/* welcomehtml styling */
+    /*opener1*/
+      .bubble {
+       width: 300px;
+       margin: 50px auto;
+       text-align: center;
+       top: 4%;
+       left:60px;   
+       border: 2px solid black;
+       border-radius: 15px;
+       padding: 20px;
+       text-align: center;
+       font-family: protomo;
+       position:relative; bottom: 500px;
+       } 
+     .op1 {
+       background: radial-gradient(#c5fff4f8,#f0fffc63, #fff );
+       left: 350px;
+       font-size:20px;
+   
+       }
+    /* opener speech bubble */
+      .op1:before {
+       content: '';
+       width: 0px;
+       height: 0px;
+       position:absolute;
+       border-left:8px solid black;
+       border-right: 8px solid transparent;
+       border-top: 8px solid#000000;;
+       border-bottom: 8px solid transparent;
+       left:14px;
+       bottom:-18px;
+
+      }
+      .op1:after {
+       content: '';
+       width: 0px;
+       height: 0px;
+       position:absolute;
+       border-left:8px solid white;
+       border-right: 8px solid transparent;
+       border-top: 10px solid white;
+       border-bottom:10px solid transparent;
+       left: 16.5px;
+       bottom: -13px;
+    } 
+   /*op1 responsive*/
+    @media (max-width:600px) {
+        .op1 {
+           width: 250px;
+           margin: 50px auto;
+           font-size:15px;
+         }
+        }
+        @media (max-width:420px) {
+            .op1 { 
+             width:100px;
+             top: -320px;
+             font-size: 12px;
+            left: 180px;
+            }
+         }
+   /*response1 button styling*/
+    .rp1 {
+      background: radial-gradient(#ffc5ccbf,rgba(255, 216, 221, 0.159), #fff );
+      left: 880px;
+      bottom: 500px;
+      font-size:20px;
+
+     
+       }
+   /*response1 button action styling*/
+     .rp1:hover {background-color: #ffc6cd69;}
+     .rp1:active {
+        background:radial-gradient(#ffc6cd69, white);
+        box-shadow: 0 6px #ff9ca87e;
+        }
+  /*response1 responsive*/
+    @media only screen and (max-width:600px) {
+     .rp1 {
+        width: 250px;
+        margin: 50px auto;
+        font-size:15px;
+        left:510px;
+       
+      }
+    }
+
+    @media (max-width:420px) {
+        .rp1 { 
+         width:100px;
+         top: -300px;
+         font-size: 12px;
+        left: 320px;
+        }
+     }
+
+  /* goback button */
+
+.goback1 {
+    width: 100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    position: relative; top: -400px;
+    background: radial-gradient(#c1b7ffde, #fff )
+  }
+  /*goback action button styling*/
+  
+   .goback1:hover {background-color: #7263d3;}
+  
+  .goback1:active {
+    background: radial-gradient(#c1b7ffde,#f6f4ffbb, #fff );
+    box-shadow: 0 6px #c1b7ffde;
+  }
+  

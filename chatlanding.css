@@ -1,0 +1,211 @@
+
+ /*graphicpopup styling*/
+ body {
+  background-image: url("https://i.ibb.co/GJvCtr5/gradient.png");
+
+  }
+  .centerchat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: -20px;
+  }
+
+/* goback button */
+
+.goback1 {
+    width: 100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2.3px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    position: relative; top: 600px;
+    background: radial-gradient(#c1b7ffde, #fff )
+  }
+  /*goback action button styling*/
+  
+   .goback1:hover {background-color: #7263d3;}
+  
+  .goback1:active {
+    background: radial-gradient(#c1b7ffde,#f6f4ffbb, #fff );
+    box-shadow: 0 6px #c1b7ffde;
+  }
+  
+  /*  next button */
+  
+  .next {
+    width: 100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2.3px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    position: relative; top: 495px; left:93%;
+    align-items: flex-start;
+    background: radial-gradient(#ffe1b7de, #fff )
+  }
+  /*next action button styling*/
+  
+   .next:hover {background-color: #d3ae63;}
+  
+  .next:active {
+    background: radial-gradient(#fff4b7de,#fffef4bb, #fff );
+    box-shadow: 0 6px #ffa876de;
+  }
+  
+  
+  
+  /* nav*/
+  .controls {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+      
+    .menu-control {
+      fill: #fff;
+      margin: 25px;
+      
+    }
+      
+    .menu-control:hover {
+      cursor: pointer;
+    }
+      
+    .menu {
+      background:linear-gradient(rgb(173, 182, 255),white);
+      bottom: 0;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      overflow-y: scroll;
+      padding: 5px 5px;
+      position: fixed;
+      transition: all 0.35s ease-in-out;
+      transform: translatey(100%);
+      
+    }
+    
+    .menu-open {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+      
+    .menu a, .menu a:focus, .menu a:visited {
+      color: rgb(0, 0, 0);
+      display: block;
+      font-size: 20px;
+      margin: 10px auto;
+      text-align: center;
+      text-decoration: none;
+    }
+      
+    .menu-close {
+      background-color: white;
+      
+    }
+    /* nav button styling*/
+   .navbubble1 {
+      width: 250px;
+      margin: 50px auto;
+      border: 1.9px solid black;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      font-family: protomo;
+      position:relative;
+      background: radial-gradient(#c5ffd0c8,#f8fff063, #fff );
+      top:26px;
+  }
+  .navbubble2 {
+      width: 250px;
+      margin: 50px auto;
+      border: 1.9px solid black;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      font-family: protomo;
+      position:relative;
+      background: radial-gradient(#ffafe8b8,#ffd2fc8e, #fff );
+      top:50px;
+  }
+  
+  .navbubble3 {
+      width: 100px;
+      margin: 50px auto;
+      border: 1.9px solid black;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      font-family: protomo;
+      position:relative;
+      background: radial-gradient(#ffe2a78b,#fffed261, #fff );
+      top:70px;
+  }
+  /* nav button action styling */
+  .navbubble1:hover {
+      background-color: #eefde986;
+   }
+   .navbubble1:active {
+       box-shadow:0 6px#cce9c289 ;
+   }
+  .navbubble2:hover {
+      background-color: #fddbff86;
+   }
+   .navbubble2:active {
+       box-shadow:0 6px#dca8d689 ;
+   }
+   .navbubble3:hover {
+      background-color: #fbfde986;
+   }
+   .navbubble3:active {
+       box-shadow:0 6px#f4ef9589 ;
+   }
+      /* nav button responsive */
+   
+       @media (max-width:600px) {
+        .navbubble2 {
+           width: 200px;
+           margin: 40px auto;
+           padding:15px;
+           font-size:13px;
+          }
+         .navbubble1 {
+          width: 200px;
+          margin: 40px auto;
+          padding:15px;
+          font-size:10px;
+        }
+      }
+   /*exit nav button styling */
+   .exit {
+      width: 70px;
+      margin: 40px auto;
+      border-radius: 20px;
+      border: 1.9px solid #000000;
+      padding: 10px;
+      color: #000000;
+      font-family: 'protomo';
+      position: relative;
+      background: radial-gradient(#c1b7ff89, #fff );
+      top:95px;
+      
+    }
+  
+    /*exit action button styling*/
+    
+     .exit:hover {background-color: #bfb5ff59;}
+    
+    .exit:active {
+      background: radial-gradient(#c1b7ffde,#f6f4ff7d, #fff );
+      box-shadow: 0 6px #c1b7ffb1;
+    }
+  

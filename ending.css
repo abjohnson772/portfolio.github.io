@@ -1,0 +1,103 @@
+/* goback button */
+body{
+    background-image: url("https://i.ibb.co/GJvCtr5/gradient.png");
+    }
+.goback1 {
+    width: 100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    font-family: 'protomo';
+    position: relative; top: -400px;
+    background: radial-gradient(#c1b7ffde, #fff )
+  }
+  /*goback action button styling*/
+  
+   .goback1:hover {background-color: #7263d3;}
+  
+  .goback1:active {
+    background: radial-gradient(#c1b7ffde,#f6f4ffbb, #fff );
+    box-shadow: 0 6px #c1b7ffde;
+  }
+  
+
+.ending {
+    
+    position:relative;
+    text-align: center;
+    top: -10px;
+    left:20%;
+    
+  }
+  @media (max-width:420px) {
+   .ending { 
+    width:290px;
+    left:40px;
+   }
+  }
+      /*opener1*/
+      .bubble {
+        width: 300px;
+        margin: 50px auto;
+        text-align: center;
+        top: 4%;
+        left:60px;   
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        font-family: protomo;
+        position:relative; bottom: 500px;
+        } 
+      .op1 {
+        background: radial-gradient(#c5fff4f8,#f0fffc63, #fff );
+        left: 350px;
+        font-size:20px;
+    
+        }
+     /* opener speech bubble */
+       .op1:before {
+        content: '';
+        width: 0px;
+        height: 0px;
+        position:absolute;
+        border-left:8px solid black;
+        border-right: 8px solid transparent;
+        border-top: 8px solid#000000;;
+        border-bottom: 8px solid transparent;
+        left:14px;
+        bottom:-18px;
+ 
+       }
+       .op1:after {
+        content: '';
+        width: 0px;
+        height: 0px;
+        position:absolute;
+        border-left:8px solid white;
+        border-right: 8px solid transparent;
+        border-top: 10px solid white;
+        border-bottom:10px solid transparent;
+        left: 16.5px;
+        bottom: -13px;
+     } 
+    /*op1 responsive*/
+     @media (max-width:600px) {
+         .op1 {
+            width: 250px;
+            margin: 50px auto;
+            font-size:15px;
+          }
+         }
+         @media (max-width:420px) {
+             .op1 { 
+              width:100px;
+              top: -320px;
+              font-size: 12px;
+             left: 180px;
+             }
+          }
